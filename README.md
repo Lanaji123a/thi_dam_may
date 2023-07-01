@@ -15,3 +15,14 @@ $mysql -h <Endpoint> -P <Port> -u <Username> -p
 <Port> là số cổng của RDS instance (mặc định là 3306).
 <Username> là tên đăng nhập để truy cập vào RDS instance của bạn.
 -p là tùy chọn để yêu cầu mật khẩu.
+
+#cai dv
+sudo yum update -y
+
+sudo yum install httpd -y
+sudo service httpd start
+sudo systemctl enable httpd
+
+cd /var/www/html
+
+sudo vi index.html
