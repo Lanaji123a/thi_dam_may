@@ -26,3 +26,5 @@ sudo systemctl enable httpd
 cd /var/www/html
 
 sudo vi index.html
+#for ubuntu
+
